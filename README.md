@@ -60,28 +60,7 @@ cd frontend
 npm run dev
 ```
 
-## 📁 Cấu Trúc Dự Án
 
-```
-algolearn/
-├── frontend/                # Frontend React application
-│   ├── src/
-│   │   ├── components/     # React components
-│   │   ├── pages/         # Page components
-│   │   ├── context/       # React context
-│   │   ├── App.jsx        # Main app component
-│   │   └── main.jsx       # Entry point
-│   ├── public/            # Static files
-│   ├── package.json
-│   ├── vite.config.js
-│   └── tailwind.config.js
-│
-└── backend/                # Backend Node.js application
-    ├── src/
-    │   ├── routes/        # API routes
-    │   └── server.js      # Main server file
-    └── package.json
-```
 
 ## 🎯 Các Tính Năng Đã Hoàn Thành
 
