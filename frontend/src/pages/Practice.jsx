@@ -132,11 +132,11 @@ const Practice = () => {
             </p>
           </div>
 
-          <div className="bg-gray-50 rounded-lg p-6 mb-8">
+          <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6 mb-8">
             <div className="text-4xl font-bold text-primary-600 mb-2">
               {score}/{questions.length}
             </div>
-            <div className="text-gray-600">
+            <div className="text-gray-600 dark:text-gray-100">
               {score === questions.length 
                 ? 'Tuyệt vời! Bạn đã trả lời đúng tất cả câu hỏi.'
                 : `Bạn đã trả lời đúng ${score} trong tổng số ${questions.length} câu hỏi.`
